@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Profile.css';
 
-export const Profile : React.FC = (props: any): JSX.Element => {
+export const Profile : React.FC = (): JSX.Element => {
     return (
         <section id="profile" className="profile">
             <h1>Vincent Kok</h1>

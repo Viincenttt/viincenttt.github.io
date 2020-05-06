@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Project.css';
 
-export const Project : React.FC = (props: any): JSX.Element => {
+export const Project : React.FC = (): JSX.Element => {
     return <div>A project</div>
 }
 
