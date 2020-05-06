@@ -44,10 +44,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-a {
+a, a:visited {
 	text-decoration: none;
-}
-a:visited {
 	color: inherit;
 }
 
