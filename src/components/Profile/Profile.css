@@ -1,8 +1,19 @@
 .profile {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #ADD8E6;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.profile p {
+    max-width: 50%;
+    line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+    .profile p {
+        max-width: 90%;
+    }
 }
