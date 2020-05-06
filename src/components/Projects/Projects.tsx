@@ -5,11 +5,11 @@ import './Projects.css';
 
 export const Projects : React.FC = (props: any): JSX.Element => {
     return (
-        <div>
+        <section id="projects" className="projects">
             My projects
             <Project />
             <Project />
-        </div>
+        </section>
     );
 }
 
